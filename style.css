@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+body {
+    background-color: #b3bc9b
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+table th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    height: 900px;
+}
+
+#navbar {
+    overflow: hidden;
+    z-index: 5;
+    background-color: brown;
+    position: sticky;
+    top: 0;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color:#b3bc9b;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.carousel{
+    width: 900px;
+
+}
+ .d-block{
+    height: 400px;
+ }
+
+ .carousel-container{
+    width: 100%;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+
+ .artist-box{
+    background-color: rgb(65, 64, 64);
+    width: 600px;
+   
+    border: solid 5px black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+ }
+
+ .artist-box:hover{
+    background-color: rgb(129, 127, 127);
+ }
+
+ .artist-selfie{
+    height: 240px;
+    width: 240px;
+     border: solid 3px rgb(219, 22, 22); 
+ }
+
+ .img-box{
+    /* border: solid 1px blue; */
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+ }
+
+ .artist-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+ }
+
+ .art-info{
+    padding: 10px;
+    border-top: solid 5px black;
+    color: whitesmoke;
+    text-align: center;
+ }
+
+ .title{
+    text-align: center;
+ }
