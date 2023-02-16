@@ -17,9 +17,7 @@ td {
     border: 1px solid black;
 }
 
-table {
-    height: 900px;
-}
+
 
 #navbar {
     overflow: hidden;
@@ -27,14 +25,16 @@ table {
     background-color: brown;
     position: sticky;
     top: 0;
+    display: flex;
+    align-items: center;
+
 }
 
 #navbar a {
-    float: left;
-    display: block;
+   
     color:#b3bc9b;
     text-align: center;
-    padding: 12px;
+    padding: 5px;
     text-decoration: none;
 }
 
@@ -86,6 +86,7 @@ table {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin-top: 20px;
  }
 
  .art-info{
@@ -97,4 +98,46 @@ table {
 
  .title{
     text-align: center;
+    color: beige;
+    margin-top: 30px;
  }
+
+ .contact-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+  }
+ 
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .about-page{
+   background-color: rgb(169, 89, 89);
+   width: 500px;
+   border: solid 2px ;
+   display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 60px;
+  }
+
+  .about-box-info{
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+    border: solid 2px;
+    border-radius: 70px;
+  }
+   .about-title{
+    text-align: center;
+   }
